@@ -518,6 +518,9 @@
 				else if(localStorage.getItem("manualColor")=="#000000"){
 					setTimeout(function() { createNote("jan julid julid :)"); }, 5000);
 				}
+				else if(localStorage.getItem("mode")=='afternoon'){
+					setTimeout(function() { createNote("jan julid julid :)"); }, 5000);
+				}
 			}
 			function createNote(isi){
 				$(".jam").css("font-size","30pt").css("bottom","calc( 50% - 50px )");
